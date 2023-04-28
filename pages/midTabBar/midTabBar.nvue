@@ -1,0 +1,99 @@
+<template>
+	<view class="warp">
+		<view class="content1">
+			<div class="icon">
+				<u-icon name="photo" size='32' color='#41d3ff' @click='toPost()'></u-icon>
+			</div>
+			<div class="text">
+				<u--text :lines="1" text="帖子" align='left' size='15' lineHeight='26' @click='toPost()'></u--text>
+				<u--text text="讨论 分析 攻略 同人文" align='left' size='13' color='#acacac' @click='toPost()'></u--text>
+			</div>
+		</view>
+		<view class="content2">
+			<div class="icon">
+				<u-icon name="calendar" size='32' color='#41d3ff' @click='toDynamic()'></u-icon>
+			</div>
+			<div class="text">
+				<u--text :lines="1" text="动态" align='left' size='15' lineHeight='26' @click='toDynamic()'></u--text>
+				<u--text text="分享你的新鲜事          " align='left' size='13' color='#acacac' @click='toDynamic()'></u--text>
+			</div>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {}
+		},
+		onLoad() {
+			console.log("popup窗口")
+		},
+		methods: {
+			toPost() {
+				console.log('发布帖子');
+			},
+			toDynamic() {
+				console.log('发布动态');
+				uni.navigateTo({
+					url: "/pages/publish/dynamicPublish"
+				})
+			}
+		},
+	}
+</script>
+
+<style lang="scss" scoped>
+	.warp {
+		padding: 24px 0px;
+		margin-top: 10vh;
+
+		.content1 {
+			// width: 500px;
+			padding: 5vh 0;
+			display: flex;
+			align-items: center;
+			position: relative;
+			top: -36vh;
+
+			.icon {
+				padding: 8px;
+				background-color: #e7fcff;
+				border-radius: 50%;
+				position: relative;
+				left: -60vw;
+				top: 30vh;
+			}
+
+			.text {
+				position: relative;
+				top: -16vh;
+				left: 36vw;
+			}
+		}
+
+		.content2 {
+			// width: 500px;
+			padding: 5vh 0;
+			display: flex;
+			align-items: center;
+			position: relative;
+			top: -46vh;
+
+			.icon {
+				padding: 8px;
+				background-color: #e7fcff;
+				border-radius: 50%;
+				position: relative;
+				left: -60vw;
+				top: 30vh;
+			}
+
+			.text {
+				position: relative;
+				top: -16vh;
+				left: 36vw;
+			}
+		}
+	}
+</style>

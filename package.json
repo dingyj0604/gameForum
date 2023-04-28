@@ -1,0 +1,14 @@
+{
+  "name": "gameForum",
+  "version": "1.0.0",
+  "description": "游戏论坛app",
+  "main": "index.js",
+  "repository": "/",
+  "author": [
+    "丁雨杰"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "uview-ui": "2.0.31"
+  }
+}

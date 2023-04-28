@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3450308 */
+  src: url('iconfont.woff2?t=1654436642385') format('woff2'),
+       url('iconfont.woff?t=1654436642385') format('woff'),
+       url('iconfont.ttf?t=1654436642385') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-headLight:before {
+  content: "\e639";
+}
+
+.icon-home:before {
+  content: "\e63f";
+}
+
+.icon-mes:before {
+  content: "\f420";
+}
+
+.icon-flower:before {
+  content: "\e606";
+}
+
+.icon-plume:before {
+  content: "\e607";
+}
+
+.icon-sands:before {
+  content: "\e608";
+}
+
+.icon-circle:before {
+  content: "\e60a";
+}
+
+.icon-goblet:before {
+  content: "\e60c";
+}
+
+.icon-anemo:before {
+  content: "\e60d";
+}
+
+.icon-cryo:before {
+  content: "\e60e";
+}
+
+.icon-dendro:before {
+  content: "\e60f";
+}
+
+.icon-geo:before {
+  content: "\e613";
+}
+
+.icon-hydro:before {
+  content: "\e614";
+}
+
+.icon-pyro:before {
+  content: "\e615";
+}
+
+.icon-amber:before {
+  content: "\e616";
+}
+
+.icon-own:before {
+  content: "\e600";
+}
+
+.icon-dynamic:before {
+  content: "\e617";
+}
+
+.icon-dynamicLight:before {
+  content: "\f421";
+}
+
+.icon-ownLight:before {
+  content: "\f422";
+}
+
+.icon-head:before {
+  content: "\f423";
+}
+
+.icon-mesLight:before {
+  content: "\f424";
+}
+
+.icon-homeLight:before {
+  content: "\f425";
+}
+
+.icon-electro:before {
+  content: "\e610";
+}
+

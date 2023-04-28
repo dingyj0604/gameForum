@@ -1,0 +1,270 @@
+{
+	"pages": [{
+		"path": "pages/welcome/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "always"
+		}
+	}, {
+		"path": "pages/home/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "always",
+			"navigationBarTextStyle": "white", // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			"app-plus": {
+				"titleNView": false,
+				"subNVues": [{
+					// 弹出层
+					"id": "popup",
+					"path": "pages/midTabBar/midTabBar.nvue",
+					"type": "popup",
+					"style": {
+						"position": "dock",
+						"dock": "bottom",
+						"height": "200px",
+						"bottom": "0px"
+					}
+				}]
+			}
+		}
+	}, {
+		"path": "pages/home/articleDetails",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": true,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/home/component/search",
+		"style": {
+			"navigationBarTitleText": "话题查询",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/topic/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "auto",
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/dynamic/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "always",
+			"titlePenetrate": "YES",
+			"navigationStyle": "custom",
+			"navigationBarTextStyle": "white"
+		}
+	}, {
+		"path": "pages/dynamic/dynamicDetails",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": true,
+			"autoBackButton": true
+		}
+	},
+	{
+		"path": "pages/publish/articlePublish",
+		"style": {
+			"navigationBarTitleText": "发布文章",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	},{
+		"path": "pages/publish/dynamicPublish",
+		"style": {
+			"navigationBarTitleText": "发布动态",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	},{
+		"path": "pages/message/index",
+		"style": {
+			"navigationBarTitleText": "消息",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/message/component/reply",
+		"style": {
+			"navigationBarTitleText": "回复我的",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": true,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/message/component/fabulous",
+		"style": {
+			"navigationBarTitleText": "收到的赞",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": true,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/message/component/notification",
+		"style": {
+			"navigationBarTitleText": "系统通知",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": true,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/myOwn/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "always"
+		}
+	}, {
+		"path": "pages/myOwn/component/concernUsers",
+		"style": {
+			"navigationBarTitleText": "关注用户",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/myOwn/component/userInfo",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "auto",
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/myOwn/component/editUser",
+		"style": {
+			"navigationBarTitleText": "修改信息",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	},{
+		"path": "pages/myOwn/component/concernTopics",
+		"style": {
+			"navigationBarTitleText": "关注话题",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	},{
+		"path": "pages/myOwn/component/collections",
+		"style": {
+			"navigationBarTitleText": "收藏",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/myOwn/component/checked",
+		"style": {
+			"navigationBarTitleText": "审核",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	},{
+		"path": "pages/myOwn/component/toppingManage",
+		"style": {
+			"navigationBarTitleText": "置顶管理",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/myOwn/component/topicManage",
+		"style": {
+			"navigationBarTitleText": "话题管理",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/myOwn/component/setting",
+		"style": {
+			"navigationBarTitleText": "设置",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/myOwn/component/editPassword",
+		"style": {
+			"navigationBarTitleText": "修改密码",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/myOwn/component/cancellation",
+		"style": {
+			"navigationBarTitleText": "账号注销",
+			"transparentTitle": "none",
+			"enablePullDownRefresh": false,
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/login/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "auto",
+			"autoBackButton": true
+		}
+	}, {
+		"path": "pages/register/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"transparentTitle": "auto",
+			"autoBackButton": true
+		}
+	}],
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"^GF-(.*)": "@/GF-components/GF-$1/index.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#00aaff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"midButton": {
+			"iconPath": "static/image/release.png",
+			"height": "42px",
+			"iconWidth": "36px"
+		},
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/image/home.png",
+				"selectedIconPath": "static/image/homeOn.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/dynamic/index",
+				"iconPath": "static/image/dynamic.png",
+				"selectedIconPath": "static/image/dynamicOn.png",
+				"text": "动态"
+			}, {
+				"pagePath": "pages/message/index",
+				"iconPath": "static/image/mes.png",
+				"selectedIconPath": "static/image/mesOn.png",
+				"text": "消息"
+			}, {
+				"pagePath": "pages/myOwn/index",
+				"iconPath": "static/image/own.png",
+				"selectedIconPath": "static/image/ownOn.png",
+				"text": "我的"
+			}
+		]
+	}
+}

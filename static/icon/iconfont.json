@@ -1,0 +1,170 @@
+{
+  "id": "3450308",
+  "name": "game",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "614776",
+      "name": "个性头像",
+      "font_class": "headLight",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "15716932",
+      "name": "首页",
+      "font_class": "home",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "20919658",
+      "name": "消息",
+      "font_class": "mes",
+      "unicode": "f420",
+      "unicode_decimal": 62496
+    },
+    {
+      "icon_id": "22561869",
+      "name": "flower",
+      "font_class": "flower",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "22561870",
+      "name": "plume",
+      "font_class": "plume",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "22561872",
+      "name": "sands",
+      "font_class": "sands",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "22561876",
+      "name": "circle",
+      "font_class": "circle",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "23259280",
+      "name": "goblet",
+      "font_class": "goblet",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "23259592",
+      "name": "anemo",
+      "font_class": "anemo",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "23259593",
+      "name": "cryo",
+      "font_class": "cryo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "23259595",
+      "name": "dendro",
+      "font_class": "dendro",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "23259597",
+      "name": "geo",
+      "font_class": "geo",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "23259598",
+      "name": "hydro",
+      "font_class": "hydro",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "23259599",
+      "name": "pyro",
+      "font_class": "pyro",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "23259908",
+      "name": "amber",
+      "font_class": "amber",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "24990668",
+      "name": "我的",
+      "font_class": "own",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "25886693",
+      "name": "动态",
+      "font_class": "dynamic",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "30177452",
+      "name": "动态",
+      "font_class": "dynamicLight",
+      "unicode": "f421",
+      "unicode_decimal": 62497
+    },
+    {
+      "icon_id": "30177453",
+      "name": "我的",
+      "font_class": "ownLight",
+      "unicode": "f422",
+      "unicode_decimal": 62498
+    },
+    {
+      "icon_id": "30177460",
+      "name": "个性头像",
+      "font_class": "head",
+      "unicode": "f423",
+      "unicode_decimal": 62499
+    },
+    {
+      "icon_id": "30177463",
+      "name": "消息",
+      "font_class": "mesLight",
+      "unicode": "f424",
+      "unicode_decimal": 62500
+    },
+    {
+      "icon_id": "30177464",
+      "name": "首页",
+      "font_class": "homeLight",
+      "unicode": "f425",
+      "unicode_decimal": 62501
+    },
+    {
+      "icon_id": "23259596",
+      "name": "electro",
+      "font_class": "electro",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}
